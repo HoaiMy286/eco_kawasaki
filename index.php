@@ -3,21 +3,23 @@
 <?php 
 // include 'includes/slider.php'; ?>
 
-<div class="advertisement">
-	<div class="adver-avatar">
-		<img src="images/adver1.jpg" alt="Logo">
-	</div>
-	<div class="adver-caption">
-		<div class="adver-container">
-			<div class="adver-infor-cap">
-				<h3>RE-ORDER NOW</h3>
-				<h2>KAWASAKI ZX-4R</h2>
-				<div class="greenSpacer"></div>
-				<h3>Price: 240.000.000vnd</h3>
+<a href="productdetail.php?productId=10" style="color: inherit; text-decoration: none;">
+	<div class="advertisement">
+		<div class="adver-avatar">
+			<img src="images/adver1.jpg" alt="Logo">
+		</div>
+		<div class="adver-caption">
+			<div class="adver-container">
+				<div class="adver-infor-cap">
+					<h3>RE-ORDER NOW</h3>
+					<h2>KAWASAKI ZX-4R</h2>
+					<div class="greenSpacer"></div>
+					<h3>Price: 240.000.000vnd</h3>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</a>
 
  <div class="homeVehicles">
     <div class="container">
