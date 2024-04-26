@@ -32,7 +32,6 @@ $user = new user();
 	<link rel="stylesheet" href="css/header.css" />
 	<link rel="stylesheet" href="css/main_index.css" />
 	<link rel="stylesheet" href="css/footer.css" />
-
 	<link rel="stylesheet" href="css/productdetail.css" />
 
 	<!-- <script src="js/dashboard.js"></script> -->
@@ -58,9 +57,9 @@ $user = new user();
 		</div>
 		<div class="header_top_right d-flex align-items-center">
 			<div class="search_box me-3">
-				<form>
+				<form action="search.php" method="GET">
 					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Search for Products" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search for Products';}">
+						<input type="text" class="form-control" name="search" placeholder="Search for Products" required>
 						<button class="btn btn-outline-secondary" type="submit">SEARCH</button>
 					</div>
 				</form>
